@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <title>CinematicView</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FF007F", // Neon Pink
+                        hotpink: "#FF69B4",
+                        orange: "#FFA500",
+                        gold: "#FFD700",
+                        sunset: "#FF4D00",
+                        "background-light": "#FFFBF5",
+                        "background-dark": "#0D080B",
+                        "surface-dark": "#1A0F14",
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Montserrat', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'neon': '0 0 20px rgba(255, 0, 127, 0.5)',
+                        'neon-strong': '0 0 40px rgba(255, 0, 127, 0.8)',
+                        'neon-gold': '0 0 20px rgba(255, 215, 0, 0.4)',
+                    }
+                },
+            },
+        };
+    </script>
+    <style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .perspective-container {
+            perspective: 2000px;
+        }
+        .rotate-left {
+            transform: translateX(-40%) scale(0.85) rotateY(25deg);
+        }
+        .rotate-right {
+            transform: translateX(40%) scale(0.85) rotateY(-25deg);
+        }
+        .center-active {
+            transform: translateX(0) scale(1) rotateY(0deg);
+        }
+        .hidden-slide-left {
+            transform: translateX(-100%) scale(0.5) rotateY(45deg);
+            opacity: 0;
+            pointer-events: none;
+        }
+        .hidden-slide-right {
+            transform: translateX(100%) scale(0.5) rotateY(-45deg);
+            opacity: 0;
+            pointer-events: none;
+        }
+        /* Mobile touch improvements */
+        @media (max-width: 768px) {
+            .perspective-container {
+                perspective: 1000px;
+            }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.460.0"
+  }
+}
+</script>
+</head>
+<body class="bg-background-light dark:bg-background-dark transition-colors duration-500 overflow-x-hidden">
+    <div id="root"></div>
+</body>
+</html>
