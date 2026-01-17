@@ -1,4 +1,4 @@
-# ✨ Carousel Using React
+# ✨ CinematicView
 
 <img src="public/Dark-mode.png" alt="CinematicView Banner in Dark Mode" width="100%" />
 <img src="public/Light-mode.png" alt="CinematicView Banner in Light Mode" width="100%" />
@@ -46,3 +46,8 @@ src/
 ├── types.ts               # TypeScript interfaces
 ├── App.tsx                # Main layout and background effects
 └── index.tsx              # Entry point
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
