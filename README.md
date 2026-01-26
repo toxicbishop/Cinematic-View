@@ -1,4 +1,4 @@
-# ✨ CinematicView
+# ✨ Cinematic View
 
 <img src="public/Dark-mode.png" alt="CinematicView Banner in Dark Mode" width="100%" />
 <img src="public/Light-mode.png" alt="CinematicView Banner in Light Mode" width="100%" />
