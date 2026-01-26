@@ -25,7 +25,6 @@ Beyond visuals, it integrates **Google's Gemini AI** to provide contextual insig
 * **Build Tool:** [Vite](https://vitejs.dev/)
 * **Language:** [TypeScript](https://www.typescriptlang.org/)
 * **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-* **AI:** [Google GenAI SDK](https://www.npmjs.com/package/@google/genai)
 * **Icons:** [Lucide React](https://lucide.dev/) & Material Icons
 
 ## 📸 Screenshots
