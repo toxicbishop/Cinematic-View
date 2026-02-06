@@ -4,7 +4,7 @@ import ThemeToggle from "./components/ThemeToggle";
 import { SLIDES } from "./constants";
 
 const App: React.FC = () => {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
