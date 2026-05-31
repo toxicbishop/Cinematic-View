@@ -47,6 +47,21 @@ src/
 └── index.tsx              # Entry point
 ```
 
+## 🚀 Setup Instructions
+
+1. **Install dependencies:**
+   ```bash
+   pnpm install
+   ```
+2. **Start development server:**
+   ```bash
+   pnpm dev
+   ```
+3. **Build for production:**
+   ```bash
+   pnpm build
+   ```
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
