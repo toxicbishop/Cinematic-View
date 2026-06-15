@@ -2,8 +2,8 @@
 
 [![Build Status](https://github.com/toxicbishop/super-octo-train/actions/workflows/build.yml/badge.svg)](https://github.com/toxicbishop/super-octo-train/actions/workflows/build.yml)
 [![CodeQL](https://github.com/toxicbishop/super-octo-train/actions/workflows/codeql.yml/badge.svg)](https://github.com/toxicbishop/super-octo-train/actions/workflows/codeql.yml)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC&logo=typescript&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 <img src="public/Dark-mode.png" alt="CinematicView Banner in Dark Mode" width="100%" />
